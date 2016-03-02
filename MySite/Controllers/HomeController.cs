@@ -13,5 +13,10 @@ namespace MySite.Controllers
         {
             return View();
         }
+
+        public ActionResult Cat()
+        {
+            return View();
+        }
     }
 }

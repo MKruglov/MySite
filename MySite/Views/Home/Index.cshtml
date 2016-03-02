@@ -3,11 +3,22 @@
     Layout = null;
 }
 
+<style>
+    body {
+        background: #FFFACD;
+    }
+</style>
+
+
+
 
 <div>
     <h1>Всем привет</h1>
     <p>Я Миша Круглов, и это что-то типо моего личного сайта</p>
     <li>@Html.ActionLink("Тут можно посмотреть список моих любимых книг", "Index", "book")</li>
     <li>@Html.ActionLink("А здесь моя краткая биография", "bio", "book")</li>
-    <p>А вот мой гитхаб: <a href="https://github.com/MKruglov">тык</a></p>
+    <li>@Html.ActionLink("Еще у меня есть любимый кот", "Cat", "Home")</li>
+    <p>А вот мой гитхаб: <a href="https://github.com/MKruglov">тык</a> </p>
+    <IMG SRC="https://cs7063.vk.me/c628731/v628731724/5799/iYOPPa8azds.jpg">
+   
 </div>

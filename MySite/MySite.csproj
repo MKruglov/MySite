@@ -116,6 +116,7 @@
     <Content Include="Web.config" />
     <Content Include="Views\Book\Index.cshtml" />
     <Content Include="Views\Book\bio.cshtml" />
+    <Content Include="Views\Home\Cat.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
