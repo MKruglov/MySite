@@ -1,0 +1,22 @@
+﻿@using System.ServiceModel
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div>
+        <ul>
+            <div>
+                <h1>Личный сайт Михаила Круглова</h1>
+      
+                <li>@Html.ActionLink("Книги", "Index", "book")</li>
+                <li>@Html.ActionLink("Биография", "bio", "book")</li>
+                <li>@Html.ActionLink("На главную", "Index", "Home")</li>
+
+
+            </div>
+        </ul>
+    </div>
+    @RenderBody()
+</body>
+</html>
